@@ -38,7 +38,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"golang.org/x/crypto/blake2b"
+	"github.com/guilherme-camacho/crypto-go/blake2b"
 )
 
 // The Argon2 version implemented by this package.

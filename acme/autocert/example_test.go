@@ -9,7 +9,7 @@ import (
 	"log"
 	"net/http"
 
-	"golang.org/x/crypto/acme/autocert"
+	"github.com/guilherme-camacho/crypto-go/acme/autocert"
 )
 
 func ExampleNewListener() {

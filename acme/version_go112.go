@@ -17,7 +17,7 @@ func init() {
 		return
 	}
 	for _, m := range info.Deps {
-		if m.Path != "golang.org/x/crypto" {
+		if m.Path != "github.com/guilherme-camacho/crypto-go" {
 			continue
 		}
 		if m.Replace == nil {

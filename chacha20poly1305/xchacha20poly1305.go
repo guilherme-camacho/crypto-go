@@ -8,7 +8,7 @@ import (
 	"crypto/cipher"
 	"errors"
 
-	"golang.org/x/crypto/chacha20"
+	"github.com/guilherme-camacho/crypto-go/chacha20"
 )
 
 type xchacha20poly1305 struct {

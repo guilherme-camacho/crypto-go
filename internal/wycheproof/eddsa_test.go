@@ -10,7 +10,7 @@ package wycheproof
 import (
 	"testing"
 
-	"golang.org/x/crypto/ed25519"
+	"github.com/guilherme-camacho/crypto-go/ed25519"
 )
 
 func TestEddsa(t *testing.T) {
